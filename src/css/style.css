@@ -7,7 +7,7 @@ body {
 main {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/rer.jpeg) center no-repeat;
   background-size: cover;
-  height: 680px;
+  min-height: 680px;
 }
 header {
   padding-top: 2em;
@@ -23,7 +23,7 @@ header {
   color: #fff;
 }
 .main_content h1 {
-  line-height: 1rem;
+  line-height: 4rem;
   font-size: 68px;
 }
 .main_content p {
@@ -135,10 +135,16 @@ h4 {
 .nizher {
   padding-top: 1.4rem;
 }
-@media (max-width: 992px) {
-  .main_content {
-    margin-top: 5rem;
+.price_photo img {
+  width: 340px;
+  padding: 1rem;
+}
+@media (max-width: 380px) {
+  .price_photo img {
+    width: 180px;
   }
+}
+@media (max-width: 992px) {
   .main_content p {
     font-size: 20px;
     padding-bottom: 7rem;
@@ -169,11 +175,6 @@ h4 {
   .about {
     padding: 2rem;
   }
-  .price_photo img {
-    margin-right: 0;
-    padding-right: 0;
-    width: 330px;
-  }
   .cart {
     margin-top: 1rem;
   }
@@ -188,8 +189,9 @@ h4 {
     margin: 0;
     padding: 0;
   }
-  .main-content {
-    margin-top: 2rem;
+  .main-content h1 {
+    margin-top: 0;
+    padding-top: 0;
   }
   .footer script {
     width: 10rem;
@@ -202,9 +204,6 @@ h4 {
 @media (max-width: 1200px) {
   .second {
     text-align: center;
-  }
-  .price_photo img {
-    width: 330px;
   }
 }
 @media (max-width: 726px) {
