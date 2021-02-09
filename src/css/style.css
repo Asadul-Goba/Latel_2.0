@@ -7,7 +7,7 @@ body {
 main {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/rer.jpeg) center no-repeat;
   background-size: cover;
-  min-height: 730px;
+  height: 680px;
 }
 header {
   padding-top: 2em;
@@ -33,6 +33,7 @@ header {
 .second {
   padding-top: 6rem;
   padding-bottom: 6rem;
+  background-color: #E9EDF0;
 }
 .about {
   padding-top: 3rem;
@@ -52,9 +53,9 @@ header {
   padding: 0;
 }
 .service {
-  background-color: #F5F5F5;
+  background-color: #FFF;
   padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 .services {
   text-align: center;
@@ -79,10 +80,15 @@ header {
   display: block;
   text-decoration: none;
   color: #000;
+  line-height: 3.5rem;
 }
 .foot {
   line-height: 5rem;
   margin-top: 2.5rem;
+}
+strong {
+  font-size: 29px;
+  font-weight: normal;
 }
 .cart {
   margin-top: 5.5rem;
@@ -113,6 +119,11 @@ h4 {
   margin-top: 3rem;
   text-align: center;
 }
+.price {
+  padding-top: 0.2rem;
+  padding-bottom: 3rem;
+  background-color: #E9EDF0;
+}
 .hprice {
   padding-bottom: 3rem;
 }
@@ -122,6 +133,8 @@ h4 {
 @media (max-width: 576px) {
   .head {
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .footer script {
     width: 10rem;
@@ -136,6 +149,7 @@ h4 {
     margin-top: 5rem;
   }
   .main_content p {
+    font-size: 20px;
     padding-bottom: 7rem;
   }
   .main_content h1 {
@@ -151,6 +165,9 @@ h4 {
     font-size: 25px;
     line-height: 3rem;
   }
+  .foot strong {
+    font-size: 22px;
+  }
   .services img {
     padding-top: 2.5rem;
   }
@@ -162,6 +179,8 @@ h4 {
     padding: 2rem;
   }
   .price_photo img {
+    margin-right: 0;
+    padding-right: 0;
     width: 330px;
   }
   .cart {
@@ -169,7 +188,20 @@ h4 {
   }
 }
 @media (max-width: 1200px) {
+  .second {
+    text-align: center;
+  }
   .price_photo img {
     width: 330px;
+  }
+}
+@media (max-width: 690px) {
+  .head-phone {
+    padding: 0;
+    margin: 0;
+  }
+  .hphone {
+    padding: 0;
+    margin: 0;
   }
 }

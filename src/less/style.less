@@ -7,16 +7,14 @@ body{
 main{
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/rer.jpeg) center no-repeat;
 	background-size: cover;	
-	min-height: 730px;
+	height: 680px;
 
 }
 header{
 	padding-top: 2em;
 	font-size: 20px;
 	color:#fff;
-	head{
-	}
-	
+
 }
 .logo{
 	text-align: center;
@@ -37,6 +35,8 @@ header{
 .second{
 	padding-top: 6rem;
 	padding-bottom: 6rem;
+	background-color: #E9EDF0;
+
 }
 .about{
 	padding-top: 3rem;
@@ -57,9 +57,9 @@ header{
 
 }
 .service{
-	background-color: #F5F5F5;
+	background-color: #FFF;
 	padding-top: 2rem;
-	padding-bottom: 6rem;
+	padding-bottom: 3rem;
 }
 .services{
 
@@ -86,11 +86,18 @@ header{
 	display: block;
 	text-decoration: none;
 	color:#000;
+	line-height: 3.5rem;
 }
+
 .foot{
 	line-height:5rem;
 	margin-top: 2.5rem;
 }
+ strong{
+ 	
+ 	font-size: 29px;	
+ 	font-weight:normal;
+ }
 .cart{
 	margin-top:5.5rem;
 }
@@ -124,6 +131,11 @@ h4{
 	margin-top: 3rem;
 	text-align: center;
 }
+.price{
+	padding-top: 0.2rem;
+	padding-bottom: 3rem;		
+	background-color: #E9EDF0;
+}
 .hprice{
 	padding-bottom: 3rem;
 }
@@ -131,8 +143,11 @@ h4{
 	text-align: center;
 }
 @media (max-width:576px) {
+	
 	.head{
 		text-align: center;
+		margin: 0;
+		padding: 0;
 	}
 	.footer script{
 		width: 10rem;
@@ -142,12 +157,12 @@ h4{
 		font-size:25px;
 	}
 
-	
 }
 @media (max-width:992px) {
 	.main_content{
 		margin-top: 5rem;
 		p{
+			font-size: 20px;
 			padding-bottom: 7rem;	
 		}
 
@@ -166,6 +181,9 @@ h4{
 			font-size: 25px;
 			line-height:3rem;
 		}
+		strong{
+			font-size: 22px;	
+		}
 	}
 	.services{
 		img{
@@ -180,6 +198,8 @@ h4{
 		padding: 2rem;	
 	}
 	.price_photo img{
+		margin-right: 0;
+		padding-right: 0;
 		width: 330px;
 	}
 	.cart{
@@ -187,8 +207,23 @@ h4{
 	}
 }
 @media (max-width:1200px){
+	.second{
+		text-align: center;
+	}
 	.price_photo img{
 		width: 330px;
+	}
+
+}
+@media(max-width: 690px){
+	
+	.head-phone{
+		padding: 0;	
+		margin: 0;	
+	}
+	.hphone{
+		padding: 0;	
+		margin: 0;	
 	}
 
 }
