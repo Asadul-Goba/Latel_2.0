@@ -23,11 +23,12 @@ header {
   color: #fff;
 }
 .main_content h1 {
+  line-height: 1rem;
   font-size: 68px;
 }
 .main_content p {
   padding-top: 3rem;
-  line-height: 3rem;
+  line-height: 2rem;
   font-size: 30px;
 }
 .second {
@@ -178,6 +179,10 @@ h4 {
   }
 }
 @media (max-width: 576px) {
+  .nizhe {
+    margin-top: 0;
+    padding-top: 0;
+  }
   .head {
     text-align: center;
     margin: 0;
@@ -202,7 +207,10 @@ h4 {
     width: 330px;
   }
 }
-@media (max-width: 690px) {
+@media (max-width: 726px) {
+  .head p {
+    font-size: 1rem;
+  }
   .head-phone {
     padding: 0;
     margin: 0;
