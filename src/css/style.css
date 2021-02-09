@@ -95,6 +95,9 @@ strong {
 .footer {
   margin-bottom: 3rem;
 }
+.footer .phone-link {
+  font-size: 30px;
+}
 .developer {
   background-color: #DFE5E7;
 }
